@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.curriculum {
+ font-size: 14pt;
+ text-align: center;
+
+font-family: verdana;
+}
+
+.dadospessoais {
+  font-size: 14pt;
+ text-align: left;
+ font-family: verdana;
+ }
+
+ .formacao {
+  font-size: 14pt;
+  text-align: left;
+  font-family: verdana;
+ }
+
+
+ .experiencia {
+  font-size: 14pt;
+  text-align: left;
+  font-family: verdana;
+ }
+
+ .p {
+  font-size: 14pt;
+  text-align: left;
+  font-style: initial;
+ }
+
+ .objetivo {
+  font-size: 14pt;
+  text-align: left;
+  font-style: initial;
+ }

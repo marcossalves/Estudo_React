@@ -5,22 +5,77 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Dadospessoais />
+      <Formacao />
+      <Experiencia />
+      <Objetivo />
     </div>
   );
 }
+
+function Header() {
+  return (
+    <div>
+      <h1 className="curriculum">Curriculum Vitae Teste</h1>
+
+      <p>Homer Jay Simpson</p>
+      <hr />
+    </div>
+
+  )
+}
+
+function Dadospessoais() {
+  return (
+    <div>
+      <h2 className="dadospessoais">Dados Pessoais:</h2>
+      <p className="p">Endereço: Rua da Alegria <br />
+      Cidade: Springfield<br />
+      Estado Civil: Casado<br />
+      Email: Homer@email.com<br />
+      </p>
+
+      <hr />
+    </div>
+
+  )
+}
+
+
+function Formacao() {
+  return (
+    <div>
+
+      <h3 className="formacao">Formação:</h3>
+      <p className="p">Graduação:  Química </p>
+      <hr />
+    </div>
+
+  )
+}
+
+function Experiencia() {
+  return (
+    <div>
+      <h4 className="experiencia">Experiência Profissional: </h4>
+      <p className="p"> Usina Nuclear Springfield</p>
+      <hr />
+    </div>
+
+  )
+}
+
+function Objetivo() {
+  return (
+    <div>
+      <h4 className="objetivo">Objetivo: </h4>
+      <p className="p"> Trabalhar com doces </p>
+      <hr />
+    </div>
+
+  )
+}
+
 
 export default App;
