@@ -1,10 +1,11 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
+
+.App {
   height: 40vmin;
-  pointer-events: none;
+ 
+  border-width: medium;
+  border-style: solid;
+  border-color:#9a9a9a;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -22,6 +23,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -37,24 +39,58 @@
   }
 }
 
+
+
+
+
+.foto {
+  
+  text-align: center;
+margin: 10px; 
+ }
+
+
+ .nome {
+  font-size: 16pt;
+  text-align: center;
+ font-family: verdana;
+ color: black;
+text-align: center;
+
+ }
+
+
+
+ .dadospessoais {
+  font-size: 14pt;
+ font-family: verdana;
+text-align: left  ;
+display: inline-block;  
+
+
+
+}
+
+.formacao {
+  font-size: 14pt;
+ font-family: verdana;
+ text-align: left;
+
+
+
+}
+
+
+
+
+
 .curriculum {
  font-size: 14pt;
  text-align: center;
-
 font-family: verdana;
 }
 
-.dadospessoais {
-  font-size: 14pt;
- text-align: left;
- font-family: verdana;
- }
 
- .formacao {
-  font-size: 14pt;
-  text-align: left;
-  font-family: verdana;
- }
 
 
  .experiencia {
@@ -67,6 +103,7 @@ font-family: verdana;
   font-size: 14pt;
   text-align: left;
   font-style: initial;
+  font-family: verdana;
  }
 
  .objetivo {

@@ -1,27 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
+import homer from './homer.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+
+      <Foto />
+      <Nome />
       <Dadospessoais />
       <Formacao />
       <Experiencia />
       <Objetivo />
     </div>
   );
+
 }
 
-function Header() {
+
+
+function Foto() {
   return (
     <div>
-      <h1 className="curriculum">Curriculum Vitae Teste</h1>
+      <h1 className="foto">
+        <img src={homer} /><br />
 
-      <p>Homer Jay Simpson</p>
-      <hr />
+      </h1>
     </div>
+  )
+}
+
+
+function Nome() {
+  return (
+    <div>
+      <h1 className="curriculum">Homer Simpson</h1><br />
+    </div >
 
   )
 }
@@ -29,15 +43,17 @@ function Header() {
 function Dadospessoais() {
   return (
     <div>
-      <h2 className="dadospessoais">Dados Pessoais:</h2>
-      <p className="p">Endereço: Rua da Alegria <br />
-      Cidade: Springfield<br />
-      Estado Civil: Casado<br />
-      Email: Homer@email.com<br />
-      </p>
+      <h2 className="dadospessoais">Dados Pessoais:
+      <p>Endereço: Rua Springfield 150</p>
+        <p>Cidade: Springfield</p>
+        <p> Tel: 11  11111111</p>
+        <p>Estado Civil: Casado</p>
+        <p>Email: homer@gmail.com</p>
 
-      <hr />
-    </div>
+
+      </h2 >
+
+    </div >
 
   )
 }
@@ -46,11 +62,12 @@ function Dadospessoais() {
 function Formacao() {
   return (
     <div>
-
-      <h3 className="formacao">Formação:</h3>
-      <p className="p">Graduação:  Química </p>
       <hr />
-    </div>
+      <h3 className="formacao">Formação:</h3>
+      <p >Química </p>
+      <hr />
+
+    </div >
 
   )
 }
@@ -59,7 +76,7 @@ function Experiencia() {
   return (
     <div>
       <h4 className="experiencia">Experiência Profissional: </h4>
-      <p className="p"> Usina Nuclear Springfield</p>
+      <p className="p"> Segurança Nuclear  usina Springfield</p>
       <hr />
     </div>
 
@@ -70,7 +87,7 @@ function Objetivo() {
   return (
     <div>
       <h4 className="objetivo">Objetivo: </h4>
-      <p className="p"> Trabalhar com doces </p>
+      <p className="p"> Segurança Nuclear </p>
       <hr />
     </div>
 
